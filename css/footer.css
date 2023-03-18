@@ -1,0 +1,36 @@
+footer {
+  background: #1391ce;
+  padding: 35px 0 70px;
+}
+footer hr {
+  border: 1px solid white;
+}
+.end {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.left p, a {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 134.3%;
+  letter-spacing: 0.01em;
+  color: #302e2f;
+  transition: 0.2s;
+}
+.left a:hover {
+  color: white;
+}
+.right p, a {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 134.3%;
+  letter-spacing: 0.01em;
+  color: #302e2f;
+  transition: 0.2s;
+}
+.right a {
+  color: white;
+}

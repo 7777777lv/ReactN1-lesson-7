@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url(./common.css);
+@import url(./header.css);
+@import url(./footer.css);
+
+main {
+  padding: 180px 0px 70px;
+  background-color: #e5e5e5;
+}
+.main-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.boxs {
+  width: 364px;
+  background: #1391ce;
+  box-shadow: 0px 10px 15px rgba(31, 100, 133, 0.1),
+    0px 4px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  padding: 70px 34px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.boxs:hover {
+  transform: scale(1.08);
+  box-shadow: 0px 5px 10px 2px rgb(34 60 80 / 20%);
+  background-color: #0071a9;
+}
+.boxs p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+#section1 {
+  margin-top: 65px;
+}
+.justafew {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 121.3%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #1391ce;
+}
+#section1 hr {
+  margin: 0 auto;
+  margin-top: 16px;
+  width: 160px;
+  border: 4px solid #f7ba0e;
+}
+.sc1-img img {
+  margin-left: -24px;
+}
+.sc1 {
+  margin-top: 97px;
+  display: flex;
+  justify-content: space-between;
+}
+.sc1-content h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 134.3%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #25468a;
+}
+.sc1-content h2 {
+  margin: 18px 0 32px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 134.3%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  color: #1391ce;
+}
+.sc1-content p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 134.3%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #4f4f4f;
+}
+#section2 {
+  margin-top: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+.sc2-content h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 134.3%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #25468a;
+}
+.sc2-content h2 {
+  margin: 18px 0 32px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 134.3%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  color: #1391ce;
+}
+.sc2-content p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 134.3%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #4f4f4f;
+}
+.sc2-content h4 {
+  margin-top: 25px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 134.3%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #1391ce;
+}
+.sc2-content ul {
+  list-style-image: url(../images/checkbox.svg);
+  margin-top: 10px;
+  margin-left:28px;
+}
+.sc2-content li {
+  margin: 15px 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 134.3%;
+  letter-spacing: 0.02em;
+  color: #4f4f4f;
+}
+.sc2-img img {
+  margin-right: -24px;
+}
+#section3 {
+  margin-top: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+.sc3-img img {
+  margin-left: -24px;
+}
+.sc3-content h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 134.3%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #25468a;
+}
+.sc3-content h2 {
+  margin: 18px 0 32px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 134.3%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  color: #1391ce;
+}
+.sc3-content ul {
+  margin-left:28px;
+  list-style-image: url(../images/checkbox.svg);
+}
+.sc3-content li {
+  margin: 10px 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 134.3%;
+  letter-spacing: 0.02em;
+  color: #4f4f4f;
+}

@@ -1,0 +1,107 @@
+header {
+  padding: 41px 0 50px;
+  background: rgba(19, 145, 206, 0.7);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fruit {
+  display: flex;
+  align-items: center;
+}
+.fruit h1 {
+  padding-left: 2px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 29px;
+  color: #25468a;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+.nav-item {
+  display: flex;
+}
+.link {
+  padding: 0px 20px;
+}
+.link a {
+  letter-spacing: 0.3px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 19px;
+  color: #25468a;
+  transition: 0.1s;
+}
+.link a:hover {
+  color: white;
+  border-bottom: 2px solid #25468a;
+}
+
+.header-download {
+  cursor: pointer;
+  margin-left: 20px;
+  padding: 10px 25px;
+  background: #ffffff;
+  border-radius: 24px;
+  border: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 19px;
+  color: #14274c;
+}
+.header-download:hover {
+  background-color:rgb(234, 234, 234);
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+.content h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 95px;
+  line-height: 108px;
+  color: #25468a;
+}
+.content h2 {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 38px;
+  color: #3b4a6b;
+}
+.content p {
+  margin-top: 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 30px;
+  color: #3b4a6b;
+}
+.downloadforfree {
+  display: inline-block;
+  margin: 30px 0 0 0;
+  border: none;
+  background: #f7ba0e;
+  border-radius: 26px;
+  padding: 15px 53px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.04em;
+  color: #3b4a6b;
+}
+.downloadforfree:hover {
+  background-color: #ffcc40;
+}
